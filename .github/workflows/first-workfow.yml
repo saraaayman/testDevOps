@@ -1,0 +1,20 @@
+name: my first workflow
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubountu-latest
+        steps:
+            - name: print msg
+              run: echo "my first"
+
+            - name: list files
+              run: 1s 
+    second_job:
+        runs-on: ubountu-latest
+        steps:
+            - name: print msg
+              run: echo "my first"
+
+            - name: list files
+              run: 1s
